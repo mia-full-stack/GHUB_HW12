@@ -1,0 +1,20 @@
+  238  git push -u origin NewFeature
+  239  git remote add origin ReadmeHW12.txt
+  240  git remote add origin git@github.com:mia-full-stack/GHUB_HW12.git
+  241  git branch -m NewFeature
+  242  git push -u NewFeature
+  243  git add readme2.txt
+  244  git commit -m "Попытка номер 3"
+  245  git status
+  246  ls -l
+  247  git status branch
+  248  git checkout main
+  249  git merge NewFeature
+  250  git checkout NewFeature 
+  251  git add .gitignore 
+  252  git commit -m "Добавляю комент к файлу игнор"
+  253  git status
+  254  git remote -v git@github.com:mia-full-stack/GHUB_HW12.git
+  255  git branch -m NewFeature 
+  256  git push -u origin NewFeature 
+  257  history | tail -20 > history1401.txt
